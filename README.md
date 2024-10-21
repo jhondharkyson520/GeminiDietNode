@@ -27,7 +27,7 @@ Este projeto trata-se de uma aplicação backend que consome a API do Google Gem
 
 1. **Clone o repositório do projeto e entre no diretório backend:**
    ```bash
-   git clone https://github.com/jhondharkyson520/GeminiDietNode.git]
+   git clone https://github.com/jhondharkyson520/GeminiDietNode.git
    cd backend
 
 2. **Instale as dependências:**
