@@ -1,6 +1,5 @@
 
-# Desafio Corelab
-
+# Gemini Diet Node
 ## Descrição
 
 Este projeto trata-se de uma aplicação backend que consome a API do Google Gemini para criação de dietas personalizadas. A aplicação é composta por um backend em Node.js que fornece uma API para criar uma dieta, de acordo com as especificações de cada usuário, a API recebe os dados fornecidos, e retorna ao usuário a dieta indicada.
