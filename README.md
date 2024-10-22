@@ -1,27 +1,28 @@
 
-# Gemini Diet Node
-## Descrição
+# 🌟 Gemini Diet Node
 
-Este projeto trata-se de uma aplicação backend que consome a API do Google Gemini para criação de dietas personalizadas. A aplicação é composta por um backend em Node.js que fornece uma API para criar uma dieta, de acordo com as especificações de cada usuário, a API recebe os dados fornecidos, e retorna ao usuário a dieta indicada.
+## 📝 Descrição
 
-## Tecnologias Utilizadas
+Este projeto trata-se de uma aplicação backend que consome a API do Google Gemini para criação de dietas personalizadas. A aplicação é composta por um backend em Node.js que fornece uma API para criar uma dieta, de acordo com as especificações de cada usuário. A API recebe os dados fornecidos e retorna ao usuário a dieta indicada.
+
+## 🛠️ Tecnologias Utilizadas
 
 - **Backend:**
-  - Node.js
-  - Fastify
-  - Cors
-  - TypeScript
+  - ⚡ Node.js
+  - 🚀 Fastify
+  - 🔓 Cors
+  - 🟦 TypeScript
 
-## Estrutura do Projeto
+## 🗂️ Estrutura do Projeto
 
 ### Backend
 
-- `src/controllers/`: Contém o controlador da API para criar uma dieta.
-- `src/services/`: Lógica de funcionalidades.
-- `src/routes.ts`: Definição das rotas da API.
-- `src/server.ts`: Configuração do servidor da API.
+- 📂 `src/controllers/`: Contém o controlador da API para criar uma dieta.
+- 📂 `src/services/`: Lógica de funcionalidades.
+- 📂 `src/routes.ts`: Definição das rotas da API.
+- 📂 `src/server.ts`: Configuração do servidor da API.
 
-## Instalação e Execução
+## ⚙️ Instalação e Execução
 
 ### Backend
 
@@ -29,28 +30,29 @@ Este projeto trata-se de uma aplicação backend que consome a API do Google Gem
    ```bash
    git clone https://github.com/jhondharkyson520/GeminiDietNode.git
    cd backend
+   ```
 
 2. **Instale as dependências:**
    ```bash
    npm install
+   ```
 
 3. **Configure a chave de API no Google AI Studio:**
-- Acesse: https://makersuite.google.com/app/apikey?hl=pt-br e crie sua chave de API.
-- Crie um arquivo `.env` na raiz do projeto `backend` com as seguintes variáveis:
+   - Acesse: [Google Makersuite](https://makersuite.google.com/app/apikey?hl=pt-br) e crie sua chave de API.
+   - Crie um arquivo `.env` na raiz do projeto `backend` com as seguintes variáveis:
    ```bash
-   
-    API_KEY = suaChaveAqui
+   API_KEY = suaChaveAqui
+   ```
 
 4. **Inicie o backend usando:**
    ```bash
    npm run dev
-   
+   ```
 
-### Funcionalidades
+## 🚀 Funcionalidades
 
-- `Backend`: API para criar dietas personalizadas, usando API do Google Gemini.
+- **Backend**: API para criar dietas personalizadas, usando a API do Google Gemini.
 
+## 🧪 Testes
 
-### Testes
-
-- `Backend`: Acesse a API em http://localhost:3333 para testar as rotas.
+- **Backend**: Acesse a API em [http://localhost:3333](http://localhost:3333) para testar as rotas.
