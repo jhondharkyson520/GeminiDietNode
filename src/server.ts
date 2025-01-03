@@ -3,7 +3,12 @@ import cors from '@fastify/cors';
 import dotenv from 'dotenv';
 import { routes } from './routes';
 
-const app = Fastify({logger: true});
+const app = Fastify({
+    logger: {
+        level: 'warn'
+    }
+});
+
 dotenv.config();
 
 app.setErrorHandler((error, request, reply) => {

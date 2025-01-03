@@ -18,7 +18,7 @@ class CreateNutritionService {
                 o objetivo dela e não retorne nenhuma observação alem das passadas no prompt, retorne em json e 
                 nenhuma propriedade pode ter acento.`);
             
-            console.log(JSON.stringify(response, null, 2));
+            //console.log(JSON.stringify(response, null, 2));
 
             if(response.response && response.response.candidates){
                 const jsonText = response.response.candidates[0]?.content.parts[0].text as string;
@@ -29,7 +29,7 @@ class CreateNutritionService {
             }
             
         } catch(error) {
-            console.error("Error JSON: ", error);
+            //console.error("Error JSON: ", error);
             throw new Error('Failed create.')
         }
     };
