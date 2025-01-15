@@ -1,5 +1,5 @@
 services:
-  backend:
+  backenddiet:
     build:
       context: .
       dockerfile: Dockerfile
