@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3333:3333"
+      - "3334:3334"
     environment:
       - NODE_ENV=production
       - API_KEY=${API_KEY}
