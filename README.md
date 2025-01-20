@@ -3,7 +3,13 @@
 
 ## 📝 Descrição
 
-Este projeto é uma API de dieta que utiliza o modelo Gemini da Google Generative AI para gerar planos alimentares personalizados. A API é desenvolvida com **Node.js**, **TypeScript**, e **Fastify**, seguindo princípios modernos de desenvolvimento de software.
+Este projeto é uma API de dieta que utiliza o modelo Gemini da Google Generative AI para gerar planos alimentares personalizados. A API é desenvolvida com **Node.js**, **TypeScript**, e **Fastify**, seguindo princípios modernos de desenvolvimento de software, garantindo alta performance e escalabilidade.
+
+A **API** está hospedada em uma **VPS** para garantir disponibilidade e performance adequadas para o consumo pelo frontend.
+
+## 🌍 **Link de Acesso**
+
+A API está hospedada e pode ser acessada em https://api1.jhondharkyson.com/.
 
 ## 🚀 Funcionalidades
 
@@ -92,3 +98,6 @@ Para utilizar a API Gemini, você precisa de uma chave de API própria. Siga os 
       "level": "string"
     }
     ```
+## 🌍 **Hospedagem na VPS**
+
+A **API** foi implementada e configurada para rodar de maneira eficiente em uma **VPS**. Durante o processo de implementação, foi feito a configuração do servidor para ser capaz de lidar com múltiplas requisições de maneira rápida e com alta disponibilidade. A comunicação entre o frontend e a API é realizada via HTTPS para garantir a segurança.
