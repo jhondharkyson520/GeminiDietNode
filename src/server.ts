@@ -20,8 +20,8 @@ const start = async () => {
     app.register(routes);
 
     try {
-        await app.listen({ port: 3333, host: '0.0.0.0'});
-        console.log(`Server on http://localhost:3333`);        
+        await app.listen({ port: 3334, host: '0.0.0.0'});
+        console.log(`Server on http://localhost:3334`);        
     } catch(error) {
         console.log(error);        
     }

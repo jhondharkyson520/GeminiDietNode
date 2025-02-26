@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "22"
+  },
   "scripts": {
+    "start": "node dist/src/server.js",
     "dev": "tsx watch src/server.ts",
     "build": "tsc"
   },
