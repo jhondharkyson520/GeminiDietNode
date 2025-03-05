@@ -1,41 +1,41 @@
 
-# 🌟 API de Dieta com Gemini
+# API de Dieta com Gemini
 
-## 📝 Descrição
+## Descrição
 
 Este projeto é uma API de dieta que utiliza o modelo Gemini da Google Generative AI para gerar planos alimentares personalizados. A API é desenvolvida com **Node.js**, **TypeScript**, e **Fastify**, seguindo princípios modernos de desenvolvimento de software, garantindo alta performance e escalabilidade.
 
 A **API** está hospedada em uma **VPS** para garantir disponibilidade e performance adequadas para o consumo pelo frontend.
 
-## 🌍 **Link de Acesso**
+## **Link de Acesso**
 
 A API está hospedada e pode ser acessada em https://api1.jhondharkyson.com/.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- **🔄 Geração de Dietas Personalizadas**: Cria planos alimentares detalhados com base nas informações fornecidas pelo usuário.
-- **📊 Integração com Gemini AI**: Utiliza a inteligência artificial da Google para gerar respostas estruturadas e precisas.
-- **🔒 Tratamento de Erros**: Implementação de um handler para respostas consistentes em caso de falhas.
+- **Geração de Dietas Personalizadas**: Cria planos alimentares detalhados com base nas informações fornecidas pelo usuário.
+- **Integração com Gemini AI**: Utiliza a inteligência artificial da Google para gerar respostas estruturadas e precisas.
+- **Tratamento de Erros**: Implementação de um handler para respostas consistentes em caso de falhas.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Backend**:
-  - 🟢 Node.js
-  - 🟦 TypeScript
-  - ⚡ Fastify
-  - 🌐 Google Generative AI (Gemini)
+  - Node.js
+  - TypeScript
+  - Fastify
+  - Google Generative AI (Gemini)
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
-- 📂 **`src/controllers`**: Controladores responsáveis por lidar com as requisições HTTP.
+- **`src/controllers`**: Controladores responsáveis por lidar com as requisições HTTP.
   - **CreateNutritionController.ts**: Gerencia a lógica das requisições para criar planos alimentares.
-- 📂 **`src/services`**: Serviços que implementam a lógica de negócio.
+- **`src/services`**: Serviços que implementam a lógica de negócio.
   - **CreateNutritionService.ts**: Realiza a integração com a API Gemini e retorna os dados processados.
-- 📂 **`src/`**:
+- **`src/`**:
   - **routes.ts**: Define as rotas da API.
   - **server.ts**: Configuração principal do servidor.
 
-## 🔑 Como Obter sua Própria Chave de API
+## Como Obter sua Própria Chave de API
 
 Para utilizar a API Gemini, você precisa de uma chave de API própria. Siga os passos abaixo:
 
@@ -53,7 +53,7 @@ Para utilizar a API Gemini, você precisa de uma chave de API própria. Siga os 
    API_KEY=YOUR_API_KEY_HERE
    ```
 
-## ⚙️ Instalação e Execução
+## Instalação e Execução
 
 1. **Clone o repositório do projeto:**
    ```bash
@@ -83,7 +83,7 @@ Para utilizar a API Gemini, você precisa de uma chave de API própria. Siga os 
 6. **Acesse a API em:**  
    `http://localhost:3333/create`
 
-## 🌐 Endpoints
+## Endpoints
 
 - **POST `/create`**: Gera um plano alimentar personalizado.
   - **Body (JSON)**:
@@ -98,6 +98,3 @@ Para utilizar a API Gemini, você precisa de uma chave de API própria. Siga os 
       "level": "string"
     }
     ```
-## 🌍 **Hospedagem na VPS**
-
-A **API** foi implementada e configurada para rodar de maneira eficiente em uma **VPS**. Durante o processo de implementação, foi feito a configuração do servidor para ser capaz de lidar com múltiplas requisições de maneira rápida e com alta disponibilidade. A comunicação entre o frontend e a API é realizada via HTTPS para garantir a segurança.
